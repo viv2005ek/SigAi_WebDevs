@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>temp</title>
     <link rel="stylesheet" href="./css/travelForm.css">
+     <!--tailwind-->
+     <link rel = "stylesheet" href = "css/output.css"/>
 </head>
 
 <body>
@@ -28,31 +30,31 @@
             </div>
         </div>
         <form id = "flight-form">
-        <div class="search-info">
+        <div class="search-info flex-col">
             <div class="block links">
                 <label for="logo">Airline</label>
-                <input type="text" id="logo" name="logo" required><br>
+                <input class="inputbar" type="text" id="logo" name="logo" required><br>
             </div>
             <div class="block links">
                 <label for="destination">Destination:</label>
-                <input type="text" id="destination" name="destination" required><br>
+                <input  class="inputbar" type="text" id="destination" name="destination" required><br>
             </div>
             <div class="block links">
                 <label for="time">Flight Time:</label>
-                <input type="text" id="time" name="time" required><br>
+                <input  class="inputbar" type="text" id="time" name="time" required><br>
             </div>
             <div class="block links">
                 <label for="business-price">Business Price:</label>
-                <input type="number" id="business-price" name="business-price" step="0.01" required><br>
+                <input  class="inputbar" type="number" id="business-price" name="business-price" step="0.01" required><br>
             </div>
             <div class="block links">
                 <label for="economy-price">Economy Price:</label>
-                <input type="number" id="economy-price" name="economy-price" step="0.01" required><br>
+                <input  class="inputbar" type="number" id="economy-price" name="economy-price" step="0.01" required><br>
             </div>
         </form>
-            <div class="block">
-                <button  class = "black btn " type="submit">Add Flight</button>
-            </div>
+        <div class="block">
+            <button  class = "black btn " type="submit">Add Flight</button>
+        </div>
         </div>
     </div>
     <div class="flight-container">

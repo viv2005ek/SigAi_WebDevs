@@ -617,6 +617,10 @@ video {
   margin-top: 5rem;
 }
 
+.ml-60 {
+  margin-left: 15rem;
+}
+
 .block {
   display: block;
 }
@@ -627,6 +631,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .justify-between {

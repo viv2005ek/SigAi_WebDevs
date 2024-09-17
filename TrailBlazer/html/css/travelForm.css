@@ -787,3 +787,16 @@ width: 90%;
     transition: all 0.3s ease;
 
 }
+
+.inputbar{
+    width: 80%;
+    margin: 1vh;
+    padding: 0.5vh;
+    border: 1px solid grey;
+    border-radius: 14px;
+    margin-right: 0;
+    align-items: end;
+    padding-left: 3vw;
+    position: relative;
+    
+}
