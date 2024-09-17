@@ -196,7 +196,54 @@
                   <div class="carousel-item active">
                      <div class="client_main">
                         <div class="box_left">
-                           <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                           <div class="card-container">
+                              <div class="card">
+                                 <div class="card-front">
+                                    <!-- Front content, e.g., an image or text -->
+                                    <p class="lorem_text" style="color: black;">hello; i am dave.
+                                       <br>
+                                       <br>
+
+                                       I want to say that
+                                       vivek and amrisha are very cool webDevs.
+                                       <br>
+                                       <br>
+
+
+                                       i really like their hard work and
+                                       patience.
+                                       <br>
+                                       <br>
+
+                                       i really want they win Trail_Blazers
+                                    </p>
+                                 </div>
+                                 <div class="card-back">
+                                    <!-- Back content, e.g., rating or other information -->
+                                    <div class="rating">
+                                       <p>Rating: ★★★★☆</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="box_right">
+                           <div class="client_taital_left">
+                              <div class="client_img"><img src="images/client-img.png"></div>
+                              <div class="quick_icon"><img src="images/quick-icon.png"></div>
+                           </div>
+                           <div class="client_taital_right">
+                              <h4 class="client_name">Dame</h4>
+                              <p class="customer_text">Customer</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="client_main">
+                        <div class="box_left">
+                           <p class="lorem_text" style="color: black;">Lorem ipsum dolor sit amet, consectetur
+                              adipiscing elit, sed do eiusmod
                               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                               dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia</p>
@@ -216,27 +263,8 @@
                   <div class="carousel-item">
                      <div class="client_main">
                         <div class="box_left">
-                           <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia</p>
-                        </div>
-                        <div class="box_right">
-                           <div class="client_taital_left">
-                              <div class="client_img"><img src="images/client-img.png"></div>
-                              <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                           </div>
-                           <div class="client_taital_right">
-                              <h4 class="client_name">Dame</h4>
-                              <p class="customer_text">Customer</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="client_main">
-                        <div class="box_left">
-                           <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                           <p class="lorem_text" style="color: black;">Lorem ipsum dolor sit amet, consectetur
+                              adipiscing elit, sed do eiusmod
                               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                               dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia</p>
@@ -323,6 +351,16 @@
    <!-- javascript -->
    <script src="js/owl.carousel.js"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   <script>// script.js
+      document.addEventListener('DOMContentLoaded', () => {
+         const card = document.querySelector('.card');
+
+         // Add an event listener for clicks if you want to toggle flipping on click
+         card.addEventListener('click', () => {
+            card.classList.toggle('is-flipped');
+         });
+      });
+   </script>
 </body>
 
 </html>
