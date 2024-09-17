@@ -595,3 +595,7 @@ video {
 .hidden {
   display: none;
 }
+
+.font-extrabold {
+  font-weight: 800;
+}
